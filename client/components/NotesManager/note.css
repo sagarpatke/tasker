@@ -1,0 +1,17 @@
+.note-enter {
+  opacity: 0.01;
+}
+
+.note-enter.note-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.note-leave {
+  opacity: 1;
+}
+
+.note-leave.note-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

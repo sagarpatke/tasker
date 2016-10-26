@@ -1,0 +1,21 @@
+{
+  "name": "tasker",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sagar Patke <sagarpatke@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sagarpatke/tasker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-roboto": "^0.0.2"
+  }
+}
