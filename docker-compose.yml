@@ -7,16 +7,8 @@ services:
      - 8080
     ports:
      - 8080:8080
-    depends_on:
-     - mongo
-    links:
-     - mongo
     environment:
       GITHUB_CLIENT_ID: '674dd35f95c2ca00bbcc'
       GITHUB_CLIENT_SECRET: '80b3431e6d93d489e014e949433976b1310d1e6b'
-      MONGO_URL: 'mongodb://mongo/tasker'
+      MONGO_URL: 'mongodb://testdb:pass@dom:port/db'
       PORT: 8080
-  mongo:
-    image: mongo
-    ports:
-     - 27017:27017    
