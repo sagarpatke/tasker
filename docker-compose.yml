@@ -6,9 +6,9 @@ services:
     expose:
      - 8080
     ports:
-     - 8080:8080
+     - 8090:8080
     environment:
-      GITHUB_CLIENT_ID: '674dd35f95c2ca00bbcc'
-      GITHUB_CLIENT_SECRET: '80b3431e6d93d489e014e949433976b1310d1e6b'
-      MONGO_URL: 'mongodb://testdb:pass@dom:port/db'
+      GITHUB_CLIENT_ID: 77f0c1f303d2e8c07120
+      GITHUB_CLIENT_SECRET: e78b87862c0fd46e50e351ce0307b4eadca9167c
+      MONGO_URL: mongodb://tasker:tasker@ds049180.mlab.com:49180/gamersdemokrasy
       PORT: 8080
