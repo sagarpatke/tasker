@@ -1,0 +1,21 @@
+{
+  "name": "tasker",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Sagar Patke <sagarpatke@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-roboto": "^0.0.2"
+  }
+}
